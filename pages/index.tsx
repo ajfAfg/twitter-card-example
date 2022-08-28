@@ -22,7 +22,8 @@ const Home: NextPage = () => {
           content="NEWARK - The guest list and parade of limousines with celebrities emerging from them seemed more suited to a red carpet event in Hollywood or New York than than a gritty stretch of Sussex Avenue near the former site of the James M. Baxter Terrace public housing project here."
         />
         {typeof document !== "undefined" && (
-          <meta name="twitter:image" content={document.URL + "emojion.png"} />
+          // <meta name="twitter:image" content={document.URL + "emojion.png"} />
+          <meta name="twitter:image" content={document.URL + "foo.jpeg"} />
         )}
         {/* <meta name="twitter:image" content="/emojion.png" /> */}
 
