@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         )} */}
         <meta
           name="twitter:image"
-          content="https://twitter-card-example.vercel.app/emojion.png"
+          content="https://twitter-card-example.vercel.app/oh.png"
         />
 
         <link rel="icon" href="/favicon.ico" />
