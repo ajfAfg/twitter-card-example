@@ -4,6 +4,8 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
+  const url = "https://twitter-card-example.vercel.app/oh.png";
+
   return (
     <div className={styles.container}>
       <Head>
@@ -25,10 +27,7 @@ const Home: NextPage = () => {
           // <meta name="twitter:image" content={document.URL + "emojion.png"} />
           <meta name="twitter:image" content={document.URL + "foo.jpeg"} />
         )} */}
-        <meta
-          name="twitter:image"
-          content="https://twitter-card-example.vercel.app/oh.png"
-        />
+        <meta name="twitter:image" content={url} />
 
         <link rel="icon" href="/favicon.ico" />
       </Head>
